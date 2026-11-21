@@ -1,0 +1,13 @@
+﻿body {
+}
+.nav a:hover {
+    border: solid medium red;
+    color: red;
+}
+
+.size tr {
+    border-bottom: dashed 1px black;
+}
+.fontsize a{
+    font-size:71%;
+}

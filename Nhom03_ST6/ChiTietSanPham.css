@@ -1,0 +1,234 @@
+﻿body {
+    font-family: Arial;
+}
+* {
+    padding:0px;
+    margin:0px;
+}
+.khung {
+    width: 1575px;
+    background-color: #0beef9;
+}
+#logo {
+    width: 80px;
+}
+.dong1 {
+    width: 1530px;
+    background-color: blue;
+    /*background-image:url(Hinh/background.png);*/
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+    .dong1 div {
+        display: inline-block;
+    }
+    .dong1 ul {
+        list-style-type: none;
+    }
+    .dong1.bang1 {
+        text-decoration: none;
+    }
+.menu1 li {
+    padding-top: 23px;
+    display: inline-block;
+    padding-right: 120px;
+}
+    .menu1 li a {
+        font-size: large;
+        font-weight: bold;
+        color: white;
+    }
+        .menu1 li a:hover {
+            color: orangered;
+        }
+.dong2 {
+    margin-top: 80px;
+    width: 1530px;
+    height: 650px;
+    padding: 20px;
+    clear: both;
+    border-radius: 15px 15px 15px;
+    border: solid thin lightgray;
+    background-color: white;
+}
+.dong3 {
+    padding: 20px;
+    clear: both;
+    width: 1530px;
+    border-radius: 15px 15px 15px;
+    border: solid thin lightgray;
+    background-color: white;
+}
+.dong4 {
+    padding: 20px;
+    clear: both;
+    width: 1530px;
+    border-radius: 15px 15px 15px;
+    border: solid thin lightgray;
+    background-color: white;
+}
+.c1 {
+    width:500px;
+    float:left;
+}
+.c2 {
+    width:900px;
+    float:left;
+    padding:10px;
+}
+.hinh1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px 15px 15px;
+}
+.dshinh {
+    list-style-type:none;
+}
+.hinh2 {
+    display:inline-block;
+}
+    .hinh2 img {
+        width: 90px;
+        height: 90px;
+        border: solid thick red;
+        border-radius: 10px 10px 10px;
+    }
+.hinh3 {
+    display:inline-block;
+}
+    .hinh3 img {
+        width: 90px;
+        height: 90px;
+        border: solid thin black;
+        border-radius: 10px 10px 10px;
+    }
+.dongdau {
+    color: red;
+    font-size: 30px;
+    background-color: lightgray;
+    border-radius: 10px 10px 10px;
+}
+.bang1 {
+    width:800px;
+}
+    .bang1 td {
+        padding: 20px;
+    }
+.giamgia {
+    list-style-type:none;
+}
+    .giamgia li {
+        color:red;
+        border: solid thin pink;
+        background-color:pink;
+        display:inline-block;
+        padding:5px;
+    }
+.cb1 {
+    width:100px;
+}
+.mausac {
+    list-style-type:none;
+}
+    .mausac li {
+        border: solid thin lightgray;
+        display:inline-block;
+        padding:5px;
+    }
+.in1 {
+    color: red;
+    background-color: pink;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px 10px 10px;
+    border: solid thin red;
+    margin-left: 100px;
+}
+.in2 {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px 10px 10px;
+    border: solid thin red;
+}
+.dongdau2 {
+    font-size: 20px;
+    background-color: lightgray;
+    border-radius: 10px 10px 10px;
+}
+.bang2 {
+    width: 1500px;
+}
+    .bang2 td {
+        padding: 10px;
+    }
+.cb2 {
+    width: 200px;
+}
+.dongdau3 {
+    font-size: 20px;
+    background-color: lightgray;
+    border-radius: 10px 10px 10px;
+}
+.bang3 {
+    width: 1500px;
+}
+    .bang3 td {
+        padding: 10px;
+    }
+    .bang3 li {
+        padding: 10px;
+    }
+    .bang3 ul {
+        padding-left:15px;
+    }
+.dongdau4 {
+    padding: 10px;
+    font-size: 20px;
+}
+.donghai {
+    color:orange;
+    font-size:30px;
+    padding-left:10px;
+}
+    .donghai b {
+        font-size:50px;    
+    }
+.binhluan {
+    border: solid thin black;
+    border-radius: 10px 10px 10px;
+    width: 1530px;
+    border-spacing:0px;
+}
+    .binhluan td {
+        padding: 10px;
+    }
+    .binhluan img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .dongbl1 td {
+        border-bottom: solid thin black;
+    }
+    .dongbl1 b {
+        color: orange;
+    }
+    .dongbl1 a {
+        color: gray;
+    }
+.cotbl1 {
+    width: 50px;
+}
+.footer {
+    width: 100%;
+    background-color: gainsboro;
+    text-align: center;
+}
+.f-contents {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}

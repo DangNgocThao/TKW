@@ -1,0 +1,88 @@
+﻿body {
+}
+.khung {
+    width:1300px;
+    height:1100px;
+    border:solid thin black;
+}
+.cot1 {
+    width:600px;
+    float:left;
+    padding:20px;
+}
+.cot2 {
+    width:600px;
+    float:right;
+    text-align:right;
+    padding:20px;
+}
+#a {
+    list-style-type:none;
+}
+    #a li {
+        display:inline-block;
+    }
+    #a a {
+        text-decoration:none;
+    }
+.dong2 {
+    clear:both;
+    padding:5px;
+    background-color:gray;
+    border-top:solid thin black;
+    border-bottom:solid thin black;
+}
+#b {
+     list-style-type:none;
+}
+    #b li {
+        display:inline-block;
+    }
+    #b a {
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+    }
+.dong3 {
+    clear:both;
+    width:1200px;
+}
+.c1 {
+    width:800px;
+    padding:10px;
+    float:left;
+}
+    .c1 a{
+        text-decoration:none;
+    }
+.c2 {
+    float:right;
+    width:300px;
+}
+.cc1 {
+    width:250px;
+    float:left;
+}
+.cc2 {
+    width:300px;
+    float:left;
+}
+#d {
+    color:blue;
+    font-weight:bold;
+}
+.d1 {
+    clear:both;
+}
+.d2 {
+    clear:both;
+    padding:5px;
+    border:solid thin lightgray;
+    width:510px;
+}
+.hinh {
+    list-style-type:none;
+}
+    .hinh li {
+        display:inline-block;
+    }

@@ -1,0 +1,80 @@
+﻿body {
+}
+* {
+    padding:0px;
+    margin:0px;
+}
+.main {
+    margin-left:5px;
+    width:1575px;
+    /*border:1px solid;*/
+}
+.dong1 {
+    width:1575px;
+    /*border:1px solid;*/
+    height:130px;
+}
+.dong1_cot1 {
+    float:left;
+    width:170px;
+    padding-top:10px;
+    padding-left:150px;
+}
+.dong1_cot2 {
+    float:left;
+    width:700px;
+    padding-top:50px;
+}
+.dong1_cot3 {
+    float:left;
+    width:455px;
+    text-align:right;
+}
+.dong2 {
+    width:1575px;
+    border:solid 1px;
+}
+.dong2_cot1 {
+    float:left;
+    width:287px;
+    background-color:#0094ff;
+    height:700px;
+    background-image:url('hinh/nen0.jpeg');
+    background-repeat:no-repeat;
+}
+.dong2_cot2 {
+    float:left;
+    width:1000px;
+    background-color:#0ff;
+    height:700px;
+    background-image:url('hinh/nen2.jpg');
+}
+.dong2_cot3 {
+    float:left;
+    width:288px;
+    background-color:#0094ff;
+    height:700px;
+    background-image:url('hinh/nen0.jpeg');
+    background-repeat:no-repeat;
+}
+.trangdangki {
+    margin-top:20px;
+    clear:both;
+    width:400px;
+    margin-left:300px;
+    padding:10px;
+    height:630px;
+    background-image:url('hinh/nen.jpg');
+}
+.face {
+    float:left;
+    width:100px;
+    border:1px solid;
+    height:40px;
+    margin-left:20px;
+    padding:5px;
+}
+.chuface {
+    text-decoration:none;
+    color:black
+}

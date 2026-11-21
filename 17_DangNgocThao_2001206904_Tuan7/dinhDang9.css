@@ -1,0 +1,31 @@
+﻿body {
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+.khung {
+    width:1000px;
+}
+.dong1 {
+    background-image:url('hinh/banner.jpg');
+    height:220px;
+    background-repeat:no-repeat;
+}
+.nemu1 {
+    list-style:none;
+    float:right;
+    margin-top:190px;
+}
+    .menu1 li {
+        display:inline-block;
+    }
+    .menu1 a {
+        color:white;
+        text-decoration:none;
+        padding:5px;
+        border-right:solid thin white;
+    }
+#cuoi {
+    border-right:none;
+}

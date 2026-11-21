@@ -1,0 +1,143 @@
+﻿body {
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration:none;
+}
+.main {
+    margin-left: 5px;
+    width: 1575px;
+    height: 1000px;
+}
+.dong1 {
+    width: 1575px;
+    height: 130px;
+}
+
+.dong1_cot1 {
+    float: left;
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.dong1_cot2 {
+    float: left;
+    width: 700px;
+    padding-top: 50px;
+}
+
+.dong1_cot3 {
+    float: left;
+    width: 455px;
+    text-align: right;
+}
+
+.ttc{
+    width:1555px;
+    height:55px;
+    padding:10px;
+    background-color:aqua;
+    padding-top:20px;
+}
+
+.sp{
+    width:506px;
+    height:17px;
+    float:left;
+    padding-right:100px;
+    padding-left:50px;
+}
+
+.dg {
+    width: 170px;
+    height: 17px;
+    float: left;
+    padding-right:30px;
+    text-align: center;
+}
+
+.sl {
+    width: 165px;
+    height: 17px;
+    float: left;
+    padding-right: 50px;
+    text-align: center;
+}
+.tt {
+    width: 112px;
+    height: 17px;
+    padding-right: 50px;
+    float: left;
+    text-align: center;
+}
+
+.tht {
+    width: 135px;
+    height: 17px;
+    float:left;
+    text-align: center;
+}
+
+.dong3{
+    clear:both;
+}
+
+.ttsp {
+    width: 1555px;
+    height: 80px;
+    padding: 10px;
+    background-color:aqua;
+}
+
+.img{
+    float:left;
+    padding-left:50px;
+    height:80px;
+}
+
+.tensp{
+    float:left;
+    width:256px;
+    height:80px;
+    text-align:center;
+    padding-right:270px;
+}
+
+.gia {
+    width: 170px;
+    height: 80px;
+    float: left;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.soluong {
+    width: 165px;
+    height: 80px;
+    float: left;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.tongtien {
+    width: 112px;
+    height: 80px;
+    padding-right: 50px;
+    float: left;
+    text-align: center;
+}
+
+.thaotac {
+    width: 135px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+
+
+

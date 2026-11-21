@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lịch sử mua hàng</title>
+    <link href="lichsu.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main">
+        <div class="dong1">
+            <div class="dong1_cot1">
+                <a href="DoraDora.html" title="trangchu" target="_self"> <img src="hinh/Dora.png" style="width:150px;height:100px" /> </a>
+            </div>
+            <div class="dong1_cot2">
+                <b style="font-size:xx-large;margin-left:10px;margin-top:50px"> Lịch sử mua hàng </b>
+            </div>
+            <div class="dong1_cot3">
+                <p style="font-size:medium;margin-top:50px;color:#0094ff"> <a href="#" target="_blank" style="text-decoration:none"> Bạn cần giúp đỡ? </a> </p>
+            </div>
+        </div>
+        <div class="dong2">
+            <div class="dong2_cot1"></div>
+            <div class="dong2_cot2">
+                <div class="dong2_nd">
+                    <ul class="menu">
+                        <li onclick="ClickHienThi()"><a href="TatCa.html" target="noidung" id="hienthi" style="color:red"> Tất cả </a></li>
+                        <li onclick="ClickHienThi2()"><a href="ChoXacNhan.html" target="noidung" id="hienthi2"> Chờ xác nhận </a></li>
+                        <li onclick="ClickHienThi3()"><a href="ChoLayHang.html" target="noidung" id="hienthi3"> Chờ lấy hàng </a></li>
+                        <li onclick="ClickHienThi4()"><a href="DangGiao.html" target="noidung" id="hienthi4"> Đang giao </a></li>
+                        <li onclick="ClickHienThi5()"><a href="DaGiao.html" target="noidung" id="hienthi5"> Đã giao </a></li>
+                        <li onclick="ClickHienThi6()"><a href="DaHuy.html" target="noidung" id="hienthi6"> Đã hủy </a></li>
+                    </ul>
+                </div>
+
+                <div class="noidung">
+                   <iframe name="noidung" width="1220" height="550" frameborder="0" src="TatCa.html"></iframe>
+                </div>
+            </div>
+            <div class="dong2_cot3"></div>
+        </div>
+        
+        
+        <script>
+            function Black() {
+                var c = document.getElementById("hienthi");
+                var c2 = document.getElementById("hienthi2");
+                var c3 = document.getElementById("hienthi3");
+                var c4 = document.getElementById("hienthi4");
+                var c5 = document.getElementById("hienthi5");
+                var c6 = document.getElementById("hienthi6");
+                c.style.color = "black";
+                c2.style.color = "black";
+                c3.style.color = "black";
+                c4.style.color = "black";
+                c5.style.color = "black";
+                c6.style.color = "black";
+            }
+            function ClickHienThi()
+            {
+                var c = document.getElementById("hienthi");
+                Black();
+                c.style.color = "red";
+            }
+            function ClickHienThi2() {
+                var c2 = document.getElementById("hienthi2");
+                Black();
+                c2.style.color = "red";
+            }
+            function ClickHienThi3() {
+                var c3 = document.getElementById("hienthi3");
+                Black();
+                c3.style.color = "red";
+            }
+            function ClickHienThi4() {
+                var c4 = document.getElementById("hienthi4");
+                Black();
+                c4.style.color = "red";
+            }
+            function ClickHienThi5() {
+                var c5 = document.getElementById("hienthi5");
+                Black();
+                c5.style.color = "red";
+            }
+            function ClickHienThi6() {
+                var c6 = document.getElementById("hienthi6");
+                Black();
+                c6.style.color = "red";
+            }
+        </script>
+    </div>
+</body>
+</html>

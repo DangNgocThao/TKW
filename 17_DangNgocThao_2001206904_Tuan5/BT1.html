@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bai Tap 1</title>
+    <style>
+        * {
+            padding:0px;
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="khung" style="width:1340px;">
+        <div class="dong1">
+            <div class="cot1" style="width:1030px; float:left;height:120px;">
+                <canvas id="CV1" width="300" height="100"></canvas>
+                <script>
+                    var c1 = document.getElementById("CV1");
+                    var ctx1 = c1.getContext("2d");
+                
+                    var gr1 = ctx1.createRadialGradient(75, 50, 5, 90, 60, 100);
+                    gr1.addColorStop(0, "red");
+                    gr1.addColorStop(1, "white");
+
+                    ctx1.arc(160, 30, 30, 0, 2 * Math.PI);
+                    ctx1.fillStyle = gr1;
+                    ctx1.fill();
+
+                    var img = new Image(130, 60);
+                    img.src = "hinh/SG.jpg";
+                    img.onload = function () {
+                        ctx1.drawImage(img, 30, 30, 130, 60);
+                    };
+
+                    ctx1.fillStyle = "blue";
+                    ctx1.font = "20px Arial";
+                    ctx1.fillText("Sài Gòn", 40, 20);
+                    ctx1.fillText("yêu thương...", 165, 85);
+                </script>
+            </div>
+            <div class="cot2" style="width:300px; float:left;height:120px;">
+                <canvas id="CV2" width="300" height="120"></canvas>
+                <script>
+                    var c2 = document.getElementById("CV2");
+                    var ctx2 = c2.getContext("2d");
+
+                    ctx2.fillStyle = "red";
+                    ctx2.font = "40px Arial";
+                    ctx2.fillText("Viet Fun Travel", 0, 50);
+
+                    ctx2.moveTo(0, 55);
+                    ctx2.lineTo(250, 55);
+                    ctx2.moveTo(0, 57);
+                    ctx2.lineTo(270, 57);
+                    ctx2.strokeStyle = 'green';
+                    ctx2.stroke();
+
+                    ctx2.fillStyle = "blue";
+                    ctx2.font = "15px Arial";
+                    ctx2.fillText("Một Hành Trình - Vạn Niềm Vui", 50, 75);
+                </script>
+            </div>
+        </div>
+        <div class="dong2" style="clear:both;background-color:red;padding-left:600px;">
+            <ul style="list-style-type:none;">
+                <li style="display:inline-block;padding:20px;">
+                    <a href="BM1.html" style="color:blue;font-weight:bold;text-decoration:none;font-size:large">Trang chủ</a>
+                </li>
+                <li style="display:inline-block;padding:20px;">
+                    <a href="BM2.html" style="color:blue;font-weight:bold;text-decoration:none;font-size:large">Đăng ký</a>
+                </li>
+                <li style="display:inline-block;padding:20px;">
+                    <a href="BM3.html" style="color:blue;font-weight:bold;text-decoration:none;font-size:large">Đăng nhập</a>
+                </li>
+                <li style="display:inline-block;padding:20px;">
+                    <a href="BM4.html" style="color:blue;font-weight:bold;text-decoration:none;font-size:large">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="dong3">
+            <div class="cot1" style="width:150px;float:left;height:350px;background-color:gray;padding:20px;">
+                <ul style="list-style-type:none;">
+                    <li>
+                        <a href="#">Di tích</a>
+                    </li>
+                    <li>
+                        <a href="#">Thắng cảnh du lịch</a>
+                    </li>
+                    <li>
+                        <a href="#">Văn hóa</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cot2" style="width:780px;float:left;padding:20px;padding-right:0px;">
+                <table style="width:750px;border-collapse:collapse;">
+                    <tr>
+                        <td colspan="2" style="color:yellow;font-weight:bold;border:solid thin black;border-bottom:lightgray;text-align:center">MỘT SỐ ĐỊA ĐIỂM DU LỊCH</td>
+                    </tr>
+                    <tr style="color:blue;text-align:center">
+                        <td style="width:375px;border:solid thin lightgray;border-left:solid thin black;">Địa danh</td>
+                        <td style="border:solid thin lightgray;border-right:solid thin black;">Tỉnh-Thành phố</td>
+                    </tr>
+                    <tr>
+                        <td style="border:solid thin lightgray;border-left:solid thin black;">
+                            Suối nước nóng<br />
+                            Biển Hồ Cốc<br />
+                            Mũi né<br />
+                            Suối vàng bạc<br />
+                        </td>
+                        <td style="border:solid thin lightgray;border-right:solid thin black;">
+                            Bình Châu Vũng Tàu<br />
+                            Bình Châu Vũng Tàu<br />
+                            Phan Thiết Bình Thuận<br />
+                            Đà Lạt Lâm Đồng<br />
+                        </td>
+                    </tr>
+                </table>
+                <table style="width:750px;border-collapse:collapse;">
+                    <tr style="text-align:center;">
+                        <td colspan="3" style="color:cyan;border:solid thin black;">MỘT SỐ DANH LAM THẮNG CẢNH</td>
+                    </tr>
+                    <tr style="color:blue;text-align:center;">
+                        <td style="width: 250px; border: solid thin black;">Đồi cỏ ở Đà Lạt</td>
+                        <td style="width: 250px; border: solid thin black;">Huế - Làng Cổ</td>
+                        <td style="border: solid thin black;">Đèo Hải Vân - Đà Nẵng</td>
+                    </tr>
+                    <tr style="text-align:center;">
+                        <td style="border: solid thin black;"><img src="hinh/hinh1.jpg" /></td>
+                        <td style="border: solid thin black;"><img src="hinh/hinh2.jpg" /></td>
+                        <td style="border: solid thin black;"><img src="hinh/hinh3.jpg" /></td>
+                    </tr>
+                    <tr style="border:solid thin black;color:red;">
+                        <td colspan="3">
+                            <br />
+                            <p>TIN TỨC:</p><br />
+                            <ul style="margin-left: 20px; list-style-type: square;">
+                                <li><a style="color:black">Saigontourist - Lượng khách đi tour giáng sinh và năm mới tăng mạnh</a></li>
+                                <li><a style="color:black">Saigontourist - Đẩy mạnh hình thức kinh doanh qua mạng</a></li>
+                                <li><a style="color:black">Tận hưởng mùa giáng sinh miên nhiệt đới và nhận giải thưởng lớn</a></li>
+                            </ul>
+                            <br />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cot3" style="width:340px;height:400px;float:left">
+                <iframe style="width:340px; height:400px;" src="Main.html"></iframe>
+            </div>
+        </div>
+        <div class="dong4" style="background-color:lightskyblue;text-align:center;clear:both;padding:10px;width:1320px;">
+            Mọi thông tin chi tiết lên hệ<br />
+            VietFun Travel
+        </div>
+    </div>
+</body>
+</html>

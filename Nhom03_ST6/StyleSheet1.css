@@ -1,0 +1,168 @@
+﻿*{
+    margin:0;
+}
+body{
+    font-family:Arial;
+}
+.khung {
+    background-color: #0beef9;
+    background-image: linear-gradient(315deg, #0beef9 0%, #48a9fe 74%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 80px;
+}
+
+.dong1 {
+    width:100%;
+    background-color:blue;
+    /*background-image:url(Hinh/background.png);*/
+    height: 80px;
+    position:fixed;
+    top:0;
+}
+
+    .dong1 div {
+        display: inline-block;
+    }
+
+.menu1 li {
+    padding-top: 23px;
+    display: inline-block;
+    padding-right: 60px;
+}
+
+    .menu1 li a {
+        font-size: large;
+        font-weight: bold;
+        color: white;
+    }
+
+        .menu1 li a:hover {
+            color: orangered;
+        }
+
+.dong2 {
+    margin-top: 80px;
+    padding: 10px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.menu2 li {
+    display: inline-block;
+    padding-right: 70px;
+}
+
+    .menu2 li a {
+        color: blue;
+        font-size: large;
+        font-weight: bold;
+        display:block;
+    }
+
+        .menu2 li a:hover {
+            color: orangered;
+            transition: ease-in 0.35s;
+            -moz-animation: ease-in 0.35s;
+            -webkit-transition: ease-in 0.35s;
+            /*border-bottom: 3px solid orangered;
+            transition:0.5s;
+            font-size:x-large;*/
+        }
+
+
+
+.d3c1 {
+    display: inline-block;
+    width: 260px;
+    padding: 10px;
+    float:left;
+}
+
+.table1{
+    margin-top:15px;
+}
+
+    .table1 ul {
+        padding-left: 0px;
+    }
+
+    .table1 li {
+        padding-top: 30px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+        background-color: white;
+        width: 250px;
+    }
+
+        .table1 li a {
+            padding-left: 5px;
+            padding-bottom: 3px;
+            color: black;
+            font-size: 20px;
+        }
+
+#cuoi {
+    border: none;
+}
+
+.table2 {
+    position: absolute;
+    margin-left: 251px;
+    margin-top: -60px;
+    display: none;
+}
+
+    .table2 li {
+        width: 215px;
+    }
+
+
+.table1 li:hover {
+    background-color: gainsboro;
+    color: red;
+    transition:all;
+}
+
+.table1 li:hover a{
+    color: red;
+}
+
+#ndc2{
+    color:black
+}
+
+    .table1 li:hover .table2 {
+        display: block;
+    }
+
+.table2 li:hover #ndc2{
+    color:red;
+}
+
+.d3c2 {
+    display: inline-block;
+    width: 1000px;
+    padding: 10px;
+}
+
+.footer{
+    width:100%;
+    background-color:gainsboro;
+    text-align:center;
+}
+
+.f-contents{
+    text-align:center;
+    padding: 20px;
+    font-size:12px;
+}

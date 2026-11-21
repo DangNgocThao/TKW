@@ -1,0 +1,28 @@
+﻿body {
+}
+.khung {
+    width:500px;
+    background-color:gray;
+    padding:20px;
+    text-align:center;
+}
+.person {
+    background-color:lightgray;
+    padding:20px;
+}
+    .person img {
+        height:100px;
+        width:100px;
+        border-radius:50%;
+        box-shadow:5px -3px 5px lightblue;
+    }
+.prev, .next{
+    color:skyblue;
+    border:none;
+    background-color:lightgray;
+    font-size:20px;
+}
+#ngaunhien {
+    border:solid thin skyblue;
+    color:skyblue;
+}

@@ -1,0 +1,80 @@
+﻿.main {
+    width: 1160px;
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0px 10px 10px 0px;
+}
+
+.sp {
+    width: 218px;
+    background-color: white;
+}
+
+
+.avatar {
+    width: 218px;
+    height: 142px;
+}
+
+.name-sp {
+    width: 218px;
+    height: 29px;
+    padding: 10px 10px 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.address {
+    padding: 10px 10px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.tag {
+    width: 218px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+
+.dathang {
+    width: 218px;
+    height: 142px;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+    display: none;
+    background-color: rgba(120,120,120,0.5)
+}
+
+.sp:hover .dathang {
+    display: block;
+}
+
+.dathang2 {
+    width: 218px;
+    height: 142px;
+    position: absolute;
+    text-align: center;
+    top: 312px;
+    display: none;
+    background-color: rgba(120,120,120,0.5)
+}
+
+.sp:hover .dathang2 {
+    display: block;
+}

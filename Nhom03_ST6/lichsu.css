@@ -1,0 +1,135 @@
+﻿body {
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    margin-left: 5px;
+    width: 1575px;
+    /*border:1px solid;*/
+}
+.dong1 {
+    width: 1575px;
+    /*border:1px solid;*/
+    height: 130px;
+}
+
+.dong1_cot1 {
+    float: left;
+    width: 170px;
+    padding-top: 10px;
+    padding-left:150px;
+}
+
+.dong1_cot2 {
+    float: left;
+    width: 700px;
+    padding-top: 50px;
+}
+
+.dong1_cot3 {
+    float: left;
+    width: 455px;
+    text-align: right;
+}
+.dong2 {
+    width: 1575px;
+/*    border: solid 1px;
+*/}
+
+.dong2_cot1 {
+    float: left;
+    width: 137px;
+    background-color: #0094ff;
+    height: 650px;
+    background-image: url('hinh/nen0.jpeg');
+    background-repeat: no-repeat;
+}
+
+.dong2_cot2 {
+    float: left;
+    width: 1300px;
+    background-color: #0ff;
+    height: 650px;
+    background-image: url('hinh/nen2.jpg');
+}
+
+.dong2_cot3
+{
+    float: left;
+    width: 138px;
+    background-color: #0094ff;
+    height: 650px;
+    background-image: url('hinh/nen0.jpeg');
+    background-repeat: no-repeat;
+}
+.dong2_nd{
+    width:1200px;
+    margin-left:50px;
+    margin-top:10px;
+    background-color:white;
+    height:30px;
+    padding:10px;
+}
+.menu {
+    list-style-type:none;
+}
+    .menu li {
+        margin-left:80px;
+        display:inline;
+    }
+        .menu li a {
+            font-size: x-large;
+            text-decoration: none;
+            color:black;
+        }
+        .menu li:hover {
+            border-bottom:3px solid red;
+            color:red;
+        }
+.noidung {
+    width: 1220px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: white;
+    height: 550px;
+}
+.hinh {
+/*    border: solid 1px;
+*/    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+    .hinh img {
+        width: 200px;
+        height: 150px;
+    }
+.tenmon{
+    font-weight:bold;
+    font-size:large;
+    color:black;
+}
+.diachi {
+    font-size:small;
+    color:black;
+}
+.trangthai {
+    color: red;
+}
+.giatien {
+    float:right;
+    color:red;
+}
+.tongcong {
+    float:right;
+    color:red;
+    font-size:x-large;
+}
+.khungtongcong {
+    clear:both;
+    width:1200px;
+    height:25px;
+    background-color:lightblue;
+}

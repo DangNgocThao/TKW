@@ -1,0 +1,54 @@
+﻿body {
+}
+#logo {
+    width: 80px;
+}
+
+.dong1 {
+    width: 1530px;
+    background-color: blue;
+    /*background-image:url(Hinh/background.png);*/
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+    .dong1 div {
+        display: inline-block;
+    }
+
+    .dong1 ul {
+        list-style-type: none;
+    }
+
+    .dong1.bang1 {
+        text-decoration: none;
+    }
+
+.menu1 li {
+    padding-top: 23px;
+    display: inline-block;
+    padding-right: 120px;
+}
+
+    .menu1 li a {
+        font-size: large;
+        font-weight: bold;
+        color: white;
+    }
+
+        .menu1 li a:hover {
+            color: orangered;
+        }
+
+.dongday {
+    background-color: gainsboro;
+}
+
+.ndday {
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}

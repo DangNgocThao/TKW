@@ -1,0 +1,11 @@
+﻿body {
+}
+.khung {
+    width:500px;
+    background-color:gray;
+    padding:20px;
+    text-align:center;
+}
+.tieude, #value {
+    font-size:30px;
+}

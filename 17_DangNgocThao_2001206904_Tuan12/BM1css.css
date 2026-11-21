@@ -1,0 +1,27 @@
+﻿body {
+}
+
+.khung {
+    width:600px;
+    background-color:#916BCF;
+    padding:50px;
+    text-align:center;
+}
+h2 {
+    color:white;
+    background-color:black;
+    font-size:40px;
+    padding:10px;
+}
+
+.color {
+    color:blue;
+}
+
+.btn-hero {
+    border:solid thin red;
+    padding:10px;
+    box-shadow:0px 0px 3px yellow;
+    background-color:transparent;
+    border-radius:5px;
+}
